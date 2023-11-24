@@ -1,0 +1,37 @@
+
+/*Elimino los botones de aumento y decremento del input type number del DNI*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+th{
+    min-width: 15vw;
+    padding: 0.5vw;
+    text-align: left;
+}
+
+.formulario, .inicio, .ficha, .portada{
+    padding: 2vw;
+    background-color: #b6b6b6;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+input, select{
+    padding: 0.4em;
+}
+
+error{
+    color: red;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
